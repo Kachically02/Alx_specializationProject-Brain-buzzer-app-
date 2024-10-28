@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: #FFFFFF;    ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: rgb(223, 223, 223) solid 3px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+}
+nav ul li:hover{
+    color: blue;
+}
+nav button{
+    padding: .3rem 1.5rem;
+    background-color: #FF8C00;
+    border: none    ;
+    border-radius: 1rem;
+    color: white;
+    margin-right: 2rem;
+}
+
+.Hero-section{
+    display: flex;
+    padding: 4rem 3rem 4rem 3rem;
+    background-color: rgb(233, 232, 232);
+}
+.Desc h3{
+    font-family: Urbanist;
+font-size: 40px;
+font-weight: 700;
+line-height: 60px;
+text-align: left;
+color: linear-gradient(90deg, #0000FF 0%, #800080 54%);
+
+}
