@@ -30,7 +30,9 @@ nav button{
 
 .Hero-section{
     display: flex;
-    padding: 4rem 3rem 4rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 4rem 4rem 3rem;
     background-color: rgb(233, 232, 232);
 }
 .Desc h3{
@@ -39,6 +41,123 @@ font-size: 40px;
 font-weight: 700;
 line-height: 60px;
 text-align: left;
-color: linear-gradient(90deg, #0000FF 0%, #800080 54%);
+color: #c20ac2;
 
 }
+.Desc p{
+    margin: 2rem 0 1rem 0;
+    line-height: 2rem;
+}
+.Desc .signup{
+    padding: .3rem 1.5rem;
+    background-color: #FF8C00;
+    border: none    ;
+    border-radius: 1rem;
+    color: white;   
+}
+.Desc .teacher{
+    padding: .3rem 1.5rem;
+    background-color: white;
+    border:1px solid  #FF8C00 ;
+    border-radius: 1rem;
+    color: #ff8c00;   
+    margin-left: -1rem;
+    margin-top: 2rem;
+}
+.Main-footer{
+ background: #3E3EB8;
+ padding: 2rem 1rem;
+}
+.footer{
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 4rem;
+    color: white;
+}
+.footer .info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footer .info .social img{
+    background-color: white;
+    margin: 2rem 0.3rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 50px;
+}
+.quicklinks{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.quicklinks ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.Category{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.Category ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.newsletter .form{
+    display: flex;
+    flex-direction: row;
+}
+.newsletter .form input{
+    padding: 0.5rem;
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+}
+.newsletter .form button{
+    background-color: #FF8C00;
+    padding: 0.5rem;
+    width: 30%;
+    border-radius: 10px;
+    border: none;
+    margin-left: -0.4rem;
+    color: white;
+}
+.contact{
+    display:flex;
+    flex-direction:row;
+    gap: 1rem;
+}
+.Email{
+    display:flex;
+    flex-direction:row;
+    gap: 1rem;
+}
+.Email img{
+    font-size: 2rem;
+    width: 30px;
+    color: white;
+}
+.copyright{
+    background: #5959C8;
+    padding: 1.5rem;
+}
+.copyright p{
+    color: white;
+    text-align: center;
+}
+
+

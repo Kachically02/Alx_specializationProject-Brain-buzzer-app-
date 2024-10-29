@@ -1,0 +1,84 @@
+.Main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    margin: 4rem;
+}
+.Image{
+    width: 844px;
+    height: 1230px;
+    top: 35px;
+    left: 112px;
+    gap: 0px;
+    border-radius: 20px 0px 0px 0px;
+    opacity: 0px;    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+.form h3, p{
+    text-align: center;
+}
+.form h3{
+    color: orange;
+}
+.form label{
+    font-weight: 600;
+    font-size: larger;
+}
+.action {
+    display:flex ;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+
+}
+.action a, #myCheckbox{
+color: orange;
+font-size: small;
+}
+.action h6 .txt input{
+    color: orange;
+}
+.form input{
+    padding: .7rem 1rem;
+    border-radius: 10px;
+    border: 0.5px solid orange;
+}
+.Login-button{
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    margin: 1rem 0;
+}
+.Sign-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    border: none;
+    border: 0.5px solid orange;
+    background-color: white;
+    margin: 1rem 0;
+}
+.Sign-up img{
+    width: 20px;
+}
+.Sign-up a{
+    color: rgb(82, 79, 79);
+    text-decoration: none;
+}
+.End-txt a{
+    color: orange;
+    margin-left: 0.5rem;
+}
